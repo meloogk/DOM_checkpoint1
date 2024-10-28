@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cart">
+        <h1>Panier d'Achat</h1>
+        <div class="cart-items">
+            <!-- Article dans le panier -->
+            <div class="cart-item">
+                <img src="./image/libriweb.jpeg" alt="Image de l'article">
+                <div class="item-details">
+                    <h2>Article 1</h2>
+                    <p class="item-price">15.00</p>
+                </div>
+                <div class="quantity">
+                    <button class="minus-button">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="plus-button">+</button>
+                </div>
+                <button class="like-button">❤️</button>
+                <button class="delete-button">Supprimer</button>
+            </div>
+            
+              <!-- Article dans le panier -->
+            <div class="cart-item">
+                <img src="./image/Monster-Integrale-Deluxe-Tome-1.jpg" alt="Image de l'article">
+                <div class="item-details">
+                    <h2>Article 2</h2>
+                    <p class="item-price">10.00</p>
+                </div>
+                <div class="quantity">
+                    <button class="minus-button">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="plus-button">+</button>
+                </div>
+                <button class="like-button">❤️</button>
+                <button class="delete-button">Supprimer</button>
+            </div>
+             <!-- Article dans le panier -->
+             <div class="cart-item">
+                <img src="./image/Vagabond-T01.jpg" alt="Image de l'article">
+                <div class="item-details">
+                    <h2>Article 3</h2>
+                    <p class="item-price">25.00</p>
+                </div>
+                <div class="quantity">
+                    <button class="minus-button">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="plus-button">+</button>
+                </div>
+                <button class="like-button">❤️</button>
+                <button class="delete-button">Supprimer</button>
+            </div>
+        </div>
+        <div class="total">
+            <h3>Total :</h3>
+            <span id="total-price">0.00</span> €
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
